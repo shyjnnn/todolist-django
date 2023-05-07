@@ -45,6 +45,7 @@ CORS_ORIGIN_ALLOW_ALL = True
 
 CORS_ORIGIN_WHITELIST = [
     'https://codoit-tova.netlify.app',
+    'https://shinyejin0212.pythonanywhere.com',
 ]
 
 
