@@ -44,8 +44,9 @@ INSTALLED_APPS = [
 CORS_ORIGIN_ALLOW_ALL = True
 
 CORS_ORIGIN_WHITELIST = [
-
-
+    'http://192.168.3.219:5173',
+    'http://192.168.3.219',
+    'https://codoit-tova.netlify.app'
 ]
 
 
