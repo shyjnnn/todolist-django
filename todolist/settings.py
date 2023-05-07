@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-s65^8tj_y!((2n5d7r2#hfii5gwxxcc-5k)un#3q8e3d6s!rza
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['https://codoit-tova.netlify.app']
 # STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 # Application definition
@@ -44,9 +44,7 @@ INSTALLED_APPS = [
 CORS_ORIGIN_ALLOW_ALL = True
 
 CORS_ORIGIN_WHITELIST = [
-    'http://192.168.3.219:5173',
-    'http://192.168.3.219',
-    'https://codoit-tova.netlify.app'
+    'https://codoit-tova.netlify.app',
 ]
 
 
